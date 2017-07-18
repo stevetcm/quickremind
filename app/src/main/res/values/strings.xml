@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Quick Remind</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="no_reminders">Click on the plus button below to begin adding new reminders!</string>
+    <string name="no_inactive">No inactive reminder at this moment.</string>
+
+    <string name="content_placeholder">Place content here</string>
+    <string name="date_placeholder">Place date here</string>
+    <string name="time_placeholder">Place time here</string>
+    <string name="repeat_placeholder">Place repeat here</string>
+    <string name="persistent_placeholder">Place persistent here</string>
+
+</resources>

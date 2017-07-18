@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/stop"
+        android:orderInCategory="101"
+        android:title="Stop Repeating" />
+    <item
+        android:id="@+id/show"
+        android:orderInCategory="102"
+        android:title="Show Notification" />
+    <item
+        android:id="@+id/edit"
+        android:orderInCategory="103"
+        android:title="Edit Reminder" />
+    <item
+        android:id="@+id/delete"
+        android:orderInCategory="104"
+        android:title="Delete Reminder" />
+</menu>
