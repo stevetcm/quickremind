@@ -24,16 +24,18 @@ public class BootReceiver extends BroadcastReceiver {
             List<Reminder> reminders = rb.getAllReminders();
 
             for (Reminder reminder : reminders) {
-                String dateandtime = reminder.getDate() + " " + reminder.getTime();
-                try {
-                    SimpleDateFormat dt = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm");
-                    Date converted = dt.parse(dateandtime);
-                    dt = new SimpleDateFormat("yyyyMMddHHmm");
-                    dateandtime = dt.format(converted);
-                    mCalendar.setTime(dt.parse(dateandtime));
-                } catch (Exception e) { }
+                if (reminder.getActive().equals("true")) {
+                    String dateandtime = reminder.getDate() + " " + reminder.getTime();
+                    try {
+                        SimpleDateFormat dt = new SimpleDateFormat("EEE, dd MMM yyyy HH:mm");
+                        Date converted = dt.parse(dateandtime);
+                        dt = new SimpleDateFormat("yyyyMMddHHmm");
+                        dateandtime = dt.format(converted);
+                        mCalendar.setTime(dt.parse(dateandtime));
+                    } catch (Exception e) { }
 
-                mAlarmReceiver.setAlarm(context, mCalendar, reminder.getId());
+                    mAlarmReceiver.setAlarm(context, mCalendar, reminder.getId());
+                }
             }
         }
     }
