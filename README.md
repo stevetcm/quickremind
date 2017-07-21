@@ -11,11 +11,13 @@ Features
 - Separated views for all upcoming and previous reminders
 - Completely free with no ads
 
-<a href="https://play.google.com/store/apps/details?id=com.orangemuffin.quickremind&hl=en"><img alt="Link to Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" width="400"/></a>
+<a href="https://play.google.com/store/apps/details?id=com.orangemuffin.quickremind&hl=en"><img alt="Link to Google Play" src="https://play.google.com/intl/en_us/badges/images/apps/en-play-badge.png" width="350"/></a>
 
 Screenshots
 -------
 <img src="https://github.com/stevetcm/quickremind/blob/master/screenshots/2017-07-06%2018.43.24.png" width="310">　　<img src="https://github.com/stevetcm/quickremind/blob/master/screenshots/2017-07-06%2018.40.32.png" width="310">
+
+<img src="https://github.com/stevetcm/quickremind/blob/master/screenshots/2017-07-06%2018.43.25.png" width="310">　　<img src="https://github.com/stevetcm/quickremind/blob/master/screenshots/2017-07-06%2018.43.37.png" width="310">
 
 License
 -------
