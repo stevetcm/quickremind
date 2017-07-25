@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Notifications Preferences">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkBoxVibrate"
+            android:title="Vibrate" />
+        <RingtonePreference
+            android:showDefault="true"
+            android:key="NotificationSound"
+            android:title="Sound"
+            android:defaultValue="content://settings/system/notification_sound"
+            android:ringtoneType="notification" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="checkBoxLED"
+            android:title="LED Light"/>
+    </PreferenceCategory>
+</PreferenceScreen>
